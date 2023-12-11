@@ -1,0 +1,273 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Form | Oxford Sofas</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playpen+Sans:wght@800&family=Roboto:wght@500&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+<style>
+  body{
+   width: 100%;
+   overflow-x: hidden;
+  }
+
+  .form{
+    margin-top: 10vh;
+    background-color: white;
+    width: 50%;
+    height: auto;
+    border-radius: 15px;
+    border:1px solid black;
+    display: block;
+  }
+.buyingform{
+  padding: 20px;
+}
+.buysubmit{
+  width: 50%;
+  background-color: rgb(63, 214, 63);
+  border-radius: 10px;
+  border: 1px solid;
+  height: 50px;
+}
+.butlabel{
+  text-align: left;
+  font-size: 15px;
+  font-family: sans-serif;
+}
+input{
+ border: 0px;
+ width: 90%;
+ border-bottom: 1px solid black;
+}
+</style>
+</head>
+
+
+<body>
+<header>
+  <div class="container-fluid">
+      <center>
+      <div class="row">
+        <div class="col-1 d-inline d-lg-none barscol ">
+          <i class="fa-solid fa-bars px-1 mt-5 mx-4 mx-lg-0 mx-lg-5 mb-3 openbtn" onclick="openNav()" id="bar"></i>
+        </div>
+        <div class="col-3 col-md-2 mx-lg-5 mx-2 " id="lgo">
+          <img class="navbar-brand mainlgodiv mt-3 " src="images/slogo.png" alt="" />
+        </div>
+        <div class="col-5  d-none d-lg-inline ">
+          <center>
+            <nav class="navbar">
+              <ul class="nav navbar">
+                <li class="nav-item">
+                  <a class="nav-link link-dark navbtn" href="index.html">Home</a>
+                </li>
+              </ul>
+              <ul class="nav navbar">
+                <li class="nav-item">
+                  <a class="nav-link link-dark  navbtn button" href="category.html">Shop</a>
+                </li>
+              </ul>
+              <ul class="nav navbar">
+                <li class="nav-item">
+                  <a class="nav-link link-dark navbtn" href="aboutus.html">About</a>
+                </li>
+              </ul>
+              <ul class="nav navbar">
+                <li class="nav-item">
+                  <a class="nav-link link-dark navbtn" href="contact.html">Contact</a>
+                </li>
+              </ul>
+              <ul class="nav navbar">
+                <li class="nav-item">
+                  <a class="nav-link link-dark navbtn" href="gallery.html">Info</a>
+                </li>
+              </ul>
+            </nav>
+          </center>
+        </div>
+        <div class="col-7 col-md-7 col-lg-2" id="icondiv">
+         <a href="heart.html"> <i class="fa-solid fa-heart  mt-5 px-1" id="bar"></i></a>
+         <a href="cart.html"> <i class="fa-solid fa-bag-shopping mt-5 px-1" id="bar"></i></a>
+        </div>
+      </div></center>
+      </div>
+  </header>
+
+  
+  <main>
+    <div class="form container-fluid">
+      <form class="buyingform">
+        <label class="butlabel">
+          Full Name
+        </label><br>
+        <input id="Name" type="text" placeholder="Enter Your Name"><br><br>
+        <label class="butlabel">
+          Address 
+        </label><br>
+        <input id="Name" type="text" placeholder="Enter Your Address"><br><br>
+        <label class="butlabel">
+          Card Number
+        </label><br>
+        <input id="Name " type="text" placeholder="1111-2222-3333-4444"><br><br>
+        <label class="butlabel">
+          CVV
+        </label><br>
+        <input id="Name " type="text" placeholder="123"><br><br>
+        <label class="butlabel">
+          Expiry 
+        </label><br>
+        <input id="Name" type="text" placeholder="11/23" ><br><br>
+        <center>
+        <input type="submit" class="mt-5 buysubmit" onclick="buyFunction()">
+      </center>
+      </form>
+    </div>
+  </main>
+    <footer>
+
+      <center>
+        <hr class="hrl">
+      </center>
+      <div class="footer-container">
+        <div class="footer-col">
+          <h3 class="footer-title"><img src="images/s.png" height="50px" alt=""></h3>
+          <ul class="footer-links">
+            <li>
+              <div class="justify-content-center align-content-center">
+                <i class="fa-brands fa-facebook " style="font-size: 15px;"></i>
+                <i class="fa-brands fa-twitter " style="font-size: 15px;"></i>
+                <i class="fa-brands fa-instagram " style="font-size: 15px;"></i>
+              </div>
+            </li>
+            <li><a href="#">meet us at aptechgarden</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h2 class="footer-title"><b>Shop</b></h2>
+          <ul class="footer-links">
+            <li><a href="one seater.html">one seater Sofa</a></li>
+            <li><a href="two seater.html">two seater sofa</a></li>
+            <li><a href="three seater.html">three seater sofa</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h3 class="footer-title">Contact</h3>
+          <ul class="footer-links">
+            <li><a href="#">033303330333</a></li>
+            <li><a href="contact.html">location</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="footer-col">
+          <h3 class="footer-title">About</h3>
+          <ul class="footer-links">
+            <li><a href="aboutus.html">Our clients</a></li>
+            <li><a href="aboutus.html">us</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+      <center>
+        <hr class="hrl">
+      </center>
+    </footer>
+      <section id="sidebar">
+        <div id="mySidebar" class="sidebar">
+          <a href="" class="closebtn" onclick="closeNav()"><i class="fa-solid fa-close closebtnside"></i></a>
+          <a href="index.html">Home</a>
+          <button class="dropdown-btn">Shop
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-container">
+    
+            <a class="dropheading"  href="">Sofa</a>
+    
+            <a class="dropa" href="one seater.html">one seater</a>
+            <a class="dropa" href="two seater.html">two seater</a>
+            <a class="dropa" href="three seater.html">three seater</a>
+    
+            <a class="dropheading" href="">shaped sofa</a>
+    
+            <a class="dropa" href="L-shaped.html">L-shaped sofa</a>
+            <a class="dropa" href="Deewan.html">Deewan sofa</a>
+            <a class="dropa" href="stools.html">Sofa stools</a>
+    
+            <a class="dropheading" href="">Unique sofa</a>
+            
+            <a class="dropa" href="L-shaped.html">L-shaped sofa</a>
+            <a class="dropa" href="Sofa cum bed.html">Sofa cum bed</a>
+            <a class="dropa" href="rocking.html">Rocking sofa</a>
+    
+            <a class="dropheading" href="#">sofa chairs</a>
+    
+            <a class="dropa" href="valvet.html">valvet sofa</a>
+            <a class="dropa" href="latherite.html">latherite sofa</a>
+            <a class="dropa" href="stools.html">sofa stool</a>
+    
+          </div>
+          <a href="contact.html">Contact</a>
+          <a href="aboutus.html">About</a>
+      </section>
+  </center>
+  <script src="jquery-3.7.1.min.js"></script>
+  <script>
+      function openNav() {
+        document.getElementById("mySidebar").style.width = "250px";
+        document.getElementById("main").style.marginLeft = "250px";
+      }
+  
+      function closeNav() {
+        document.getElementById("mySidebar").style.width = "0px";
+        document.getElementById("main").style.marginLeft = "0px";
+      }
+    </script>
+    <script>
+      $(document).ready(function () {
+        $(".dropdown-btn").click(function () {
+          $(".dropdown-container").toggle();
+        });
+      });
+    </script>
+    <script>
+      var name = document.getElementById("Name").value
+      function buyFunction() {
+      if (name == "" ) {
+        alert("Please Fill All the Fields")
+      } else {
+        alert("Your order Will Be Dilivered at your Doorstep ")
+      }
+    }
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+      integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+      crossorigin="anonymous"></script>
+  
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.min.js"
+      integrity="sha384-7VPbUDkoPSGFnVtYi0QogXtr74QeVeeIs99Qfg5YCF+TidwNdjvaKZX19NZ/e6oz"
+      crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  </body>
+  
+  </html>
